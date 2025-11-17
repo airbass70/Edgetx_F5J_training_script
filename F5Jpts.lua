@@ -24,7 +24,6 @@ local LaunchAlt
 local MotBeepTime=nil
 local Motbeep=nil
 local Attempt
---local ThrId = getFieldInfo("thr").id           -- $$$$$$PROVVISORIO$$$$$
 local Score
 local w={"ready", "launch", "gliding", "landed"}
 local y={}
@@ -42,8 +41,7 @@ local function getFlightTime(p)
   return FlightTime
 end
 
-local function getAlt()    
-  --return math.floor(getValue(ThrId)/1024*100)   --sostituisce la telemetria alt
+local function getAlt()
   return math.floor(getValue("Alt"))
 end
 
