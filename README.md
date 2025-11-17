@@ -14,3 +14,9 @@ Armed AND motor on      is LAUNCH
 Armed AND motor off     is GLIDING  
 Disarmed AND motor off  is LANDED
 
+Set the following logic switches in the EdgeTx model
+L3 arm/disarm
+L5 motor on/off
+
+Make sure you have a receiver with vario.
+Go to telemetry page and find new sensor [Alt]
