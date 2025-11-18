@@ -17,7 +17,7 @@ Armed AND motor off &emsp; gliging &emsp; The actual gliding phase.
 Disarmed AND motor off &emsp; landed &emsp; You have to stop the gliding phase by disarm (alt sensor is not precise enough to trigger the actual landing time)
 
 ## Usage
-Download the file F5J.lua in your \SD\SCRIPTS\TELEMETRY folder
+Download the file F5Jpts.lua in your \SD\SCRIPTS\TELEMETRY folder
 In your Edgetx model, go to Custom Screens, select Type script, choose F5J.  
 Set the following logic switches in the EdgeTx model  
 L3 arm/disarm  (I called it arm because I fly expresslrs, but the scritp doesn't care. You can set your own switch on L3 and call it land/ready)  
